@@ -1,0 +1,12 @@
+workflows:
+  <tên_quy_trinh>:
+    name: <tên_quy_trinh>
+    environment:
+      vars:
+        # Các biến môi trường và cài đặt khác
+    scripts:
+      # Các bước xây dựng
+    ios:
+      xcode: "<phiên_bản_xcode>"
+      podfile: "ios/Podfile"
+      # Các cài đặt iOS khác
